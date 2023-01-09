@@ -1,0 +1,44 @@
+section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:400px;
+    border:1px solid rgb(200, 200, 200);    
+    border-radius: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding:25px;
+    text-align: justify;
+    font-size:18px;
+
+    box-shadow: 1px 1px 5px #CCC;
+    background-color: rgba(255, 166, 0, 0.108);
+}
+
+section h3{ 
+    text-align: center;
+    text-transform: uppercase;
+    color:orange;
+}
+
+section button{ 
+    width:200px;
+    height:50px;
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:orange;
+    border:0px;
+    border-radius:10px;
+    cursor: pointer;
+
+    box-shadow: 0px -2px inset #737373;
+}
+
+section button:hover{
+    background-color:rgba(255, 166, 0, 0.423);
+}
+
+
+
